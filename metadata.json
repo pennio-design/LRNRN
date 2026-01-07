@@ -1,0 +1,8 @@
+{
+  "name": "LRNRN - AI Learning Strategist",
+  "description": "A strategic learning system that eliminates curriculum doubt through opinionated, reasoning-backed roadmaps and curated resources.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

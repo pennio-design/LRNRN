@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRNRN | AI Learning Strategist</title>
+    <!-- STRATEGIC: External fonts for Brand Identity -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- STRATEGIC: React Flow Base Styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reactflow@11.10.1/dist/style.css">
+
+    <!-- STRATEGIC: Process Shim for Browser ESM -->
+    <script>
+      window.process = window.process || { env: {} };
+    </script>
+
+    <!-- STRATEGIC: Import Map for ESM resolution -->
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.0?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?external=react",
+    "zustand": "https://esm.sh/zustand@4.5.1?external=react",
+    "zustand/middleware": "https://esm.sh/zustand@4.5.1/middleware?external=react",
+    "@google/genai": "https://esm.sh/@google/genai@0.2.1",
+    "clsx": "https://esm.sh/clsx@2.1.0",
+    "tailwind-merge": "https://esm.sh/tailwind-merge@2.2.1",
+    "zod": "https://esm.sh/zod@3.22.4",
+    "recharts": "https://esm.sh/recharts@2.12.0?external=react,react-dom",
+    "d3": "https://esm.sh/d3@7.8.5",
+    "reactflow": "https://esm.sh/reactflow@11.10.1?external=react,react-dom",
+    "dagre": "https://esm.sh/dagre@0.8.5"
+  }
+}
+</script>
+
+    <!-- STRATEGIC: Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: {
+                  DEFAULT: '#1a365d',
+                  foreground: '#ffffff',
+                },
+                secondary: {
+                  DEFAULT: '#f59e0b',
+                  foreground: '#1e293b',
+                },
+                success: {
+                  DEFAULT: '#059669',
+                },
+                accent: {
+                  DEFAULT: '#7c3aed',
+                },
+              },
+              fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+                mono: ['JetBrains Mono', 'monospace'],
+              }
+            }
+          }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f8fafc;
+            color: #0f172a;
+            -webkit-font-smoothing: antialiased;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+</body>
+</html>
